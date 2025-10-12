@@ -33,6 +33,9 @@ log.addEventListener("click", () => {
     document.querySelector("h1").textContent = "Welcome to our To Do App";
      box.style.display="none";
     log.textContent = "Login";
+    localStorage.removeItem("username");
+    localStorage.removeItem("value");
+    
   }
 });
 
