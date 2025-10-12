@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:100vw;
+    background-image:url("images/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.webp");
+    background-position:contain;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:12px;
+    border:2px solid black;
+    margin:0 auto;
+    background-color:rgba(24,234,233,0.5);
+    display:flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px;
+}
+#login {
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color:rgb(234 222 222);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name: dekho-toh;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#login:hover {
+  background-color: rgba(24,234,233,0.8);
+  transform: scale(1.05);
+}
+.box{
+    height:fit-content;
+    width:450px;
+    border:2px solid black;
+    padding:25px;
+    display:flex;
+    overflow:hidden;
+    flex-direction:column;
+    justify-content:flex-start;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color:white;
+}
+.list{
+    width:100%;
+    text-align:center;
+}
+.input{
+    display:flex;
+     flex-direction:column; 
+    gap:10px; 
+}
+#task{
+    outline:none;
+    border-radius:25px;
+    padding:10px;
+    width:100%;
+}
+#add{
+    outline:none;
+    border-radius:20px;
+    padding:15px;
+    background-color:red;
+
+
+}
+#delete{
+height:30px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background-image: url("images/573948.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: rgb(255, 80, 80); */
+  cursor: pointer;
+  position:relative;
+  right:0;
+  /* transition: all 0.3s ease; */
+  /* align-self:flex-end; */
+}
