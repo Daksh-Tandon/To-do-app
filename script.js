@@ -6,6 +6,7 @@ let log=document.getElementById("login");
 let username = localStorage.getItem("username");
 let box=document.querySelector(".box");
 
+
 if (username) {
   document.querySelector("h1").textContent = `Welcome back, ${username}!`;
   log.textContent = "Logout";
