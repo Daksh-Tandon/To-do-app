@@ -8,15 +8,16 @@ body{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items:center;
+    align-items:center; 
     width:100vw;
     background-image:url("images/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.webp");
-    background-position:contain;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .navbar{
     position:fixed;
     top:0;
-    left:0;
+    left:0; 
     width:100%;
     padding:12px;
     border:2px solid black;
@@ -33,9 +34,6 @@ body{
   color: black;
   font-weight: bold;
   cursor: pointer;
-  animation-name: dekho-toh;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -79,7 +77,7 @@ body{
 
 }
 #delete{
-height:30px;
+    height:30px;
   width: 40px;
   border: none;
   border-radius: 50%;
@@ -87,10 +85,7 @@ height:30px;
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: rgb(255, 80, 80); */
   cursor: pointer;
   position:relative;
   right:0;
-  /* transition: all 0.3s ease; */
-  /* align-self:flex-end; */
 }
